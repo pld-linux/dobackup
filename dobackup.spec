@@ -1,4 +1,4 @@
-%include        /usr/lib/rpm/macros.perl
+%include	/usr/lib/rpm/macros.perl
 Summary:	A Perl script for performing unattended incremental backups
 Summary(pl):	Skrypt Perla do bezobs³ugowego tworzenia przyrostowych kopii zapasowych
 Name:		dobackup
@@ -41,8 +41,8 @@ nadzór, jedyne co trzeba robiæ, to wymiana no¶ników na ¿±danie.
 rm -rf $RPM_BUILD_ROOT
 
 install -D dobackup.conf.sample ${RPM_BUILD_ROOT}%{_sysconfdir}/dobackup.conf
-install -D dobackup.pl ${RPM_BUILD_ROOT}%{_sbindir}/dobackup
-install -D dobackup.8  ${RPM_BUILD_ROOT}%{_mandir}/man8/dobackup.8
+install -D dobackup.pl	${RPM_BUILD_ROOT}%{_sbindir}/dobackup
+install -D dobackup.8	${RPM_BUILD_ROOT}%{_mandir}/man8/dobackup.8
 
 %clean
 rm -rf $RPM_BUILD_ROOT
