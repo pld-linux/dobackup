@@ -2,13 +2,13 @@
 Summary:	A Perl script for performing unattended incremental backups
 Summary(pl):	Skrypt Perla do bezobs³ugowego tworzenia przyrostowych kopii zapasowych
 Name:		dobackup
-Version:	4.26
+Version:	4.28
 Release:	1
 License:	GPL
 Vendor:		Webcon, Inc.
 Group:		Applications/Archiving
 Source0:	http://www.webcon.ca/opensource/dobackup/%{name}-%{version}.tar.gz
-# Source0-md5:	d7d4a3f17eef2c79146f2d53094f85e3
+# Source0-md5:	bb09ba0cedcf672b1cae504c12c0b04e
 Patch0:		%{name}-perl.patch
 URL:		http://www.webcon.ca/opensource/dobackup/
 BuildRequires:	perl >= 5.6.0
