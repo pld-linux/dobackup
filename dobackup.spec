@@ -8,6 +8,7 @@ Vendor:		Webcon, Inc.
 Group:		Applications/Archiving
 URL:		http://www.webcon.ca/opensource/dobackup/
 Source0:	http://www.webcon.ca/opensource/dobackup/%{name}-%{version}.tar.gz
+Patch0:		%{name}-perl.patch
 Requires:	perl >= 5.6.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -23,6 +24,7 @@ the media when told.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
