@@ -1,0 +1,11 @@
+diff -Nur dobackup-4.22.org/dobackup.pl dobackup-4.22/dobackup.pl
+--- dobackup-4.22.org/dobackup.pl	Tue Dec  3 17:24:37 2002
++++ dobackup-4.22/dobackup.pl	Wed Jan  8 15:41:50 2003
+@@ -21,7 +21,6 @@
+ #
+ 
+ #Becuase we use the new "our" function for global declaration.
+-require v5.6.0;
+ 
+ # External Calls:
+ use Config::IniFiles;
