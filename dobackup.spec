@@ -8,6 +8,7 @@ License:	GPL
 Vendor:		Webcon, Inc.
 Group:		Applications/Archiving
 Source0:	http://www.webcon.ca/opensource/dobackup/%{name}-%{version}.tar.gz
+# Source0-md5:	eb9f2c44124e47b1f0b4434c7c04d322
 Patch0:		%{name}-perl.patch
 URL:		http://www.webcon.ca/opensource/dobackup/
 BuildRequires:	perl >= 5.6.0
