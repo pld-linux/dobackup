@@ -49,7 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr( 644,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dobackup.conf
+%attr( 644,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dobackup.conf
 %doc README* CHANGELOG BUGS TODO dobackup.conf.sample dobackup.cron
 %attr(755,root,root) %{_sbindir}/dobackup
 %{_mandir}/man8/*
