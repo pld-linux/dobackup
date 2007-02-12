@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	A Perl script for performing unattended incremental backups
-Summary(pl.UTF-8):   Skrypt Perla do bezobsługowego tworzenia przyrostowych kopii zapasowych
+Summary(pl.UTF-8):	Skrypt Perla do bezobsługowego tworzenia przyrostowych kopii zapasowych
 Name:		dobackup
 Version:	4.35
 Release:	1
