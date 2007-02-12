@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	A Perl script for performing unattended incremental backups
-Summary(pl):	Skrypt Perla do bezobs³ugowego tworzenia przyrostowych kopii zapasowych
+Summary(pl.UTF-8):   Skrypt Perla do bezobsÅ‚ugowego tworzenia przyrostowych kopii zapasowych
 Name:		dobackup
 Version:	4.35
 Release:	1
@@ -24,14 +24,14 @@ exclusion patterns, user settable 'don't-backup-this-directory'
 metafiles. Design goal: zero-maintenance, nothing to do except change
 the media when told.
 
-%description -l pl
-Elastyczny skrypt Perla maj±cy za zadanie bezobs³ugowe tworzenie
-przyrostowych kopii zapasowych z wielu serwerów. Obs³uguje wiele
-zestawów no¶ników z automatycznym przygotowywaniem i rotacj± no¶ników,
+%description -l pl.UTF-8
+Elastyczny skrypt Perla majÄ…cy za zadanie bezobsÅ‚ugowe tworzenie
+przyrostowych kopii zapasowych z wielu serwerÃ³w. ObsÅ‚uguje wiele
+zestawÃ³w noÅ›nikÃ³w z automatycznym przygotowywaniem i rotacjÄ… noÅ›nikÃ³w,
 konfigurowalnym wyborem danych do kopiowania, globalnymi wzorcami
-wykluczeñ oraz ustawianymi przez u¿ytkownika metaplikami
-zabraniaj±cymi kopiowania danego katalogu. Cel projektu: zerowy
-nadzór, jedyne co trzeba robiæ, to wymiana no¶ników na ¿±danie.
+wykluczeÅ„ oraz ustawianymi przez uÅ¼ytkownika metaplikami
+zabraniajÄ…cymi kopiowania danego katalogu. Cel projektu: zerowy
+nadzÃ³r, jedyne co trzeba robiÄ‡, to wymiana noÅ›nikÃ³w na Å¼Ä…danie.
 
 %prep
 %setup -q
