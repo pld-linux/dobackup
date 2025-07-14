@@ -34,7 +34,7 @@ nadzór, jedyne co trzeba robić, to wymiana nośników na żądanie.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
